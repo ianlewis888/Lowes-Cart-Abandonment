@@ -1,0 +1,102 @@
+/* Font files */
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@font-face {
+  font-family: "Din";
+  src: url("fonts/DINNEXTLTPRO-REGULAR.OTF");
+}
+@font-face {
+  font-family: "Din Medium";
+  src: url("fonts/DINNEXTLTPRO-MEDIUM_0.OTF");
+}
+@font-face {
+  font-family: "Din Bold";
+  src: url("fonts/DINNEXTLTPRO-BOLD.OTF");
+}
+@font-face {
+  font-family: "Din Heavy";
+  src: url("fonts/DINNEXTLTPRO-HEAVY.OTF");
+}
+
+#pop-in {
+  color: #004990;
+  border: solid 1px #000000;
+  outline: none;
+  font-family: "Din", helvetica, sans-serif;
+  position: absolute;
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+}
+
+#map {
+  z-index: -50;
+  width: 100%;
+  height: 500px;
+}
+
+.bottom-panel {
+  position: absolute;
+  overflow: visible;
+  -webkit-box-shadow: 0px 0px 69px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 69px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 69px 0px rgba(0,0,0,0.5);
+  background-color: #ffffff;
+  position: absolute;
+  top: 500px;
+  width: 100%;
+  height: 100px;
+  font-family: "Din Bold", helvetica, sans-serif;
+}
+
+.logo {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 152px;
+  height: 70px;
+}
+
+.product-image {
+  position: absolute;
+  top: 5px;
+  left: 197px;
+  max-width: 90px;
+  max-height: 90px;
+}
+
+.buy-now {
+  margin: 0;
+  position: absolute;
+  top: 12px;
+  left: 310px;
+}
+
+.product-text {
+  margin: 0;
+  color: #333;
+  font-family: "Din", helvetica, sans-serif;
+  position: absolute;
+  left: 310px;
+  top: 52px;
+  width: 330px;
+  height: 37px;
+  overflow:hidden;
+}
+
+#get-directions {
+  background-color: #15B6E5;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  position: absolute;
+  left: 655px;
+  top: 35px;
+  height: 30px;
+  border-radius: 3px;
+  transition: background-color 300ms ease;
+}
+#get-directions:hover {
+  background-color: #004990;
+}
