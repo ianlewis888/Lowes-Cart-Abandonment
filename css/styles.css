@@ -39,7 +39,6 @@
   position: absolute;
   overflow: visible;
   -webkit-box-shadow: 0px 0px 69px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 0px 69px 0px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 69px 0px rgba(0,0,0,0.5);
   background-color: #ffffff;
   position: absolute;
@@ -95,6 +94,7 @@
   top: 35px;
   height: 30px;
   border-radius: 3px;
+  -webkit-transition: background-color 300ms ease;
   transition: background-color 300ms ease;
 }
 #get-directions:hover {
